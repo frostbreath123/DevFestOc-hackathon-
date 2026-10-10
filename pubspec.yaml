@@ -1,0 +1,25 @@
+name: railocity
+description: "Helps Indian Railways passengers understand a disruption and decide what to do next."
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Saves the journey, last known status and alerts so they show offline.
+  shared_preferences: ^2.3.0
+  # Opens official railway pages in the browser.
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
